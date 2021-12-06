@@ -28,7 +28,8 @@ const Works = () => {
 								key={x.id}
 								id={x.id}
 								imgsrc={x.imgsrc}
-								des = {x.description}
+								des={x.description}
+								demo={x.demo}
 								url={x.url}
 								name={x.name}
 								skills={x.skills}

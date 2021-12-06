@@ -6,6 +6,7 @@ import {
 	skillsBar_frontend,
 	section2title,
 	skillsBar_backend,
+	social,
 } from "../../profile";
 
 const About = () => {
@@ -41,16 +42,64 @@ const About = () => {
 						Passionate about developing user-friendly websites with top-notch
 						coding skills. Having strong communication skills and experience in
 						working in teams. Interested in developing dynamic websites.
-						<br />
-						In 2017, I successfully completed my Engineering with specialization
-						in 'Mechanical'.
-						<br />
-						Working with the clients, my goal is always driven towards providing
-						amazing experience with the best level of quality and service to
-						them.
-						<br />
-						<br /> <br />
+						{/* <br />
+						<br /> <br /> */}
 					</p>
+					<div>
+						{social.linkedin && (
+							<a
+								title="Visit Linkedin profile"
+								rel="noopener noreferrer"
+								target="_blank"
+								href={social.linkedin}
+								className="see2"
+							>
+								<i className="fab fa-linkedin"></i>
+							</a>
+						)}
+						{social.github && (
+							<a
+								title="Visit Github profile"
+								rel="noopener noreferrer"
+								target="_blank"
+								href={social.github}
+								className="see2"
+							>
+								<i className="fab fa-github"></i>
+							</a>
+						)}
+						<br />
+						{social.resume && (
+							<a title="Download Resume" href={social.resume} download>
+								<p
+									style={{
+										padding: "2%",
+										background: "blue",
+										color: "white",
+										width: "23%",
+										display: "flex",
+										margin: "5% 2%",
+									}}
+								>
+									<i className="fas fa-download"></i>Resume
+								</p>
+							</a>
+						)}
+						<p
+							style={{
+								padding: "2%",
+								background: "blue",
+								color: "white",
+								width: "36%",
+								display: "flex",
+								margin: "5% 2%",
+							}}
+						>
+							<i className="fa fa-phone" aria-hidden="true"></i>
+							<>+918109623638</>
+							
+						</p>
+					</div>
 				</div>
 			</div>
 			{/* <div id="Skills">

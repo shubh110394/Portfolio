@@ -141,6 +141,7 @@ const projects = [
 			</>
 		),
 		url: "https://github.com/harshith128/onnbikes",
+		demo:"https://harshith128.github.io/onnbikes-client/"
 	},
 	{
 		// Add image in './styles/images.css' in #project2
