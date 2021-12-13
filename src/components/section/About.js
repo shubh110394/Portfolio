@@ -18,7 +18,7 @@ const About = () => {
 					id="not-dark2"
 				></div> */}
 				<div className="About-title-box ">
-					<h1 id="About" className="red-line">
+					<h1 id="About" className="">
 						{section2title}
 					</h1>
 				</div>
@@ -58,47 +58,26 @@ const About = () => {
 							</a>
 						)}
 						{social.github && (
-							<a
-								title="Visit Github profile"
-								rel="noopener noreferrer"
-								target="_blank"
-								href={social.github}
-								className="see2"
-							>
-								<i className="fab fa-github"></i>
-							</a>
-						)}
-						<br />
-						{social.resume && (
-							<a title="Download Resume" href={social.resume} download>
-								<p
-									style={{
-										padding: "2%",
-										background: "blue",
-										color: "white",
-										width: "23%",
-										display: "flex",
-										margin: "5% 2%",
-									}}
+							<div style={{ display: "inline" }}>
+								<a
+									title="Visit Github profile"
+									rel="noopener noreferrer"
+									target="_blank"
+									href={social.github}
+									className="see2"
 								>
-									<i className="fas fa-download"></i>Resume
+									<i className="fab fa-github"></i>
+								</a>
+								<p className="para">
+									<i className="fa fa-phone" aria-hidden="true"></i>
+									<span style={{ margin: "-3% 9%" }}> +918109623638</span>
 								</p>
-							</a>
+								<p className="para_mail">
+									<i className="fa fa-envelope" aria-hidden="true"></i>
+									<span style={{ margin: "-1% 9%" }}>shubh.110394@gmail.com</span>
+								</p>
+							</div>
 						)}
-						<p
-							style={{
-								padding: "2%",
-								background: "blue",
-								color: "white",
-								width: "36%",
-								display: "flex",
-								margin: "5% 2%",
-							}}
-						>
-							<i className="fa fa-phone" aria-hidden="true"></i>
-							<>+918109623638</>
-							
-						</p>
 					</div>
 				</div>
 			</div>
