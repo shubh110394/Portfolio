@@ -23,8 +23,28 @@ button:focus {
 .lead {
 	font-weight: 400;
 }
+.icon{
+	margin: 1%;
+	text-decoration: none;
+}
+.box-contain{
+	margin: 2%;
+}
 .bg-danger {
 	background-color: var(--primary-color) !important;
+}
+.image_change {
+	width: 30%;
+	position: relative;
+	left: 30%;
+	top: 20%;
+	border-radius: 2%;
+}
+.name {
+	position: relative;
+	top: -28%;
+	left: -23%;
+	text-align: left;
 }
 .Header {
 	text-align: center;
@@ -35,15 +55,16 @@ button:focus {
 	height: 100vh;
 	font-family: Montserrat, sans-serif;
 }
-.Header h1 {
+.Header h2 {
 	color: #000;
-	text-align: center;
-	font-size: 5.5rem;
-	position: absolute;
+	text-align: left;
+	font-size: 3rem;
+	/* position: absolute; */
 }
-.Header p {
-	margin-top: 125px;
+.Header h5 {
+	text-align: left;
 }
+
 .particle {
 	position: absolute!;
 	margin: 0 !important;
@@ -121,10 +142,44 @@ button:focus {
 	width: auto;
 	padding: 1%;
 }
+.para {
+	padding: 4%;
+	background-color: var(--primary-color);
+	color: #fff;
+	width: 48%;
+	display: flex;
+	margin: 5% 2%;
+}
+.para_mail {
+	padding: 4%;
+	background-color: var(--primary-color);
+	color: #fff;
+	width: 76%;
+	display: flex;
+	margin: 5% 2%;
+}
+.para2 {
+	padding: 4%;
+	background-color: var(--primary-color);
+	color: #fff;
+	width: 84%;
+	display: flex;
+	margin: 5% 2%;
+}
+.para_mail2 {
+	padding: 4%;
+	background-color: var(--primary-color);
+	color: #fff;
+	width: 117%;
+	display: flex;
+	margin: 5% 2%;
+}
 .red-line {
 	color: var(--primary-color);
+	/* color: rgb(75, 107, 44); */
 	font-weight: 500;
 	text-align: center;
+	border-bottom: solid 2px var(--primary-color);
 }
 .About-title-box {
 	box-sizing: border-box;
@@ -133,6 +188,8 @@ button:focus {
 	border-bottom: solid 2px var(--primary-color);
 	margin-bottom: 15px;
 	text-align: center;
+	color: var(--primary-color);
+	
 }
 .skill__square {
 	display: inline;
@@ -378,18 +435,19 @@ textarea:focus {
 	border: #000;
 	outline: #000;
 	/* position: absolute; */
+	width: auto;
 	padding: 5px 15px;
 	padding-bottom: 7px;
 	border-radius: 3px;
 	margin: 2%;
 }
 .fa-eye {
-	color: #fff;
-	font-size: 20px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 15px;
-	padding-right: 7px;
+    color: #fff;
+    font-size: 100%;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 7px;
 }
 .see:active {
 	outline: 0;
@@ -400,10 +458,10 @@ textarea:focus {
 .switch {
 	position: relative;
 	display: inline-block;
-	width: 60px;
+	width: 57px;
 	height: 34px;
 	left: 44.5%;
-	bottom: 46%;
+	bottom: 76%;
 }
 /* .Header p {
   margin-top: 40px;
@@ -466,15 +524,15 @@ input:checked + .slider:before {
 	font-family: "Anonymous Pro", monospace !important;
 }
 .anim-typewriter {
-	margin-top: 3rem;
+	/* margin-top: 3rem; */
 	width: auto;
 }
 .parallax {
 	background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 .hp {
-	position: absolute;
-	top: -2em;
+	/* position: absolute;
+	top: -2em; */
 	font-size: 1.5rem;
 }
 @keyframes typewriter {
@@ -619,14 +677,73 @@ input:checked + .slider:before {
 	}
 }
 @media (max-width: 455px) {
+	.see {
+		background-color: var(--primary-color);
+		color: #fff;
+		border: #000;
+		outline: #000;
+		position: absolute;
+		padding: 5px 15px;
+		padding-bottom: 7px;
+		border-radius: 3px;
+		left: 48%;
+		top: 84%;
+	}
+
+	h5 {
+		font-size: 1rem;
+		text-align: center;
+	}
+	.Header h2 {
+		color: #000;
+		text-align: center;
+		font-size: 1.5rem;
+		/* position: absolute; */
+	}
 	.anim-typewriter {
-		font-size: 100%;
+		font-size: 123%;
+		position: relative;
 		position: absolute;
 		top: 9rem;
+		position: relative;
+		top: 0%;
 	}
+	/* .switch {
+		bottom: 65%;
+		left: 35%;
+		margin-top: 7%;
+	} */
 	.hp {
 		position: absolute;
 		top: -1em;
 		font-size: 1.5rem;
+	}
+	.switch {
+		bottom: 73%;
+		left: 35%;
+		margin-top: 7%;
+		margin-right: 7%;
+	}
+	.image_change {
+		width: 58%;
+		position: relative;
+		left: 0%;
+		top: -22%;
+		border: none;
+	}
+
+	.name {
+		position: relative;
+		top: 0%;
+		left: 1%;
+		text-align: left;
+	}
+	.fa-eye {
+		color: #fff;
+		font-size: 100%;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 0px;
+		padding-right: 7px;
 	}
 }

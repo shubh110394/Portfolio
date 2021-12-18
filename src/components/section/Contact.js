@@ -6,67 +6,45 @@ const Contact = () => {
 		<div className="parallax">
 			<div data-aos="zoom-in-up" data-aos-once="false" className="git-form">
 				<>
-					<div className="git-head-div text-center mx-auto">
+					{/* <div className="git-head-div text-center mx-auto">
 						<h1 id="Contact" className="git-head">
 							{section5Title}
 						</h1>
-					</div>
+					</div> */}
 				</>
-				<div className="container">
+				<div className="d-flex justify-content-center align-items-center flex-column box-contain">
 					<div className="git-cont row">
-						<div className="col-12 col-sm-6 half">
-							<form
-								action={
-									contact.contactUrl
-										? contact.contactUrl
-										: "https://formspree.io"
-								}
-								method={contact.contactUrl ? "POST" : "GET"}
-							>
-								<input
-									type="text"
-									id="fname"
-									name="firstname"
-									placeholder="Your name"
-									required
-								></input>
-								<input
-									type="mail"
-									id="mailid"
-									name="Email"
-									placeholder="Email Address"
-									required
-								></input>
-								<input
-									type="text"
-									id="sub"
-									name="Subject"
-									placeholder="Subject"
-									required
-								></input>
-								<textarea
-									id="msg"
-									name="message"
-									placeholder="Message"
-									required
-								></textarea>
-								<button style={{ cursor: "pointer" }} type="submit">
-									Send Message
-								</button>
-							</form>
-						</div>
-						<div className="col-12 col-sm-6 half">
-							<p className="lead">{contact.pitch}</p>
+						<div className="mx-auto">
+							<h1 className="red-line">{contact.pitch}</h1>
 							<div className="d-flex justify-content-center align-items-center flex-column">
-								<div className="inline-block">
+								<div className="d-flex justify-content-center   flex-column ">
+									<p className="para2">
+										<i className="fa fa-phone fa-2x" aria-hidden="true"></i>
+										<span style={{ margin: "2% 9%" }}> +918109623638</span>
+									</p>
+									<p className="para_mail2">
+										<i className="fa fa-envelope fa-2x"></i>
+										<span style={{ margin: "1% 9%" }}>
+											shubh.110394@gmail.com
+										</span>
+									</p>
 									{social.linkedin && (
 										<a
 											title="Visit Linkedin profile"
 											rel="noopener noreferrer"
 											target="_blank"
+											className="icon"
 											href={social.linkedin}
 										>
-											<i className="fab fa-linkedin"></i>
+											<p className="para_mail2">
+												<i
+													className="fa fa-linkedin fa-2x"
+													aria-hidden="true"
+												></i>
+												<span style={{ margin: "1% 9%" }}>
+													shubh.110394@gmail.com
+												</span>
+											</p>
 										</a>
 									)}
 									{social.facebook && (
@@ -75,8 +53,17 @@ const Contact = () => {
 											rel="noopener noreferrer"
 											target="_blank"
 											href={social.facebook}
+											className="icon"
 										>
-											<i className="fab fa-facebook"></i>
+											<p className="para_mail2">
+												<i
+													className="fa fa-facebook fa-2x"
+													aria-hidden="true"
+												></i>
+												<span style={{ margin: "1% 9%" }}>
+													shubh.110394@gmail.com
+												</span>
+											</p>
 										</a>
 									)}
 									{social.twitter && (
@@ -85,6 +72,7 @@ const Contact = () => {
 											rel="noopener noreferrer"
 											target="_blank"
 											href={social.twitter}
+											className="icon"
 										>
 											<i className="fab fa-twitter"></i>
 										</a>
@@ -95,6 +83,7 @@ const Contact = () => {
 											rel="noopener noreferrer"
 											target="_blank"
 											href={social.instagram}
+											className="icon"
 										>
 											<i className="fab fa-instagram"></i>
 										</a>
@@ -105,17 +94,27 @@ const Contact = () => {
 											rel="noopener noreferrer"
 											target="_blank"
 											href={social.github}
+											className="icon"
 										>
-											<i className="fab fa-github"></i>
+											<p className="para_mail2">
+												<i
+													className="fa fa-github fa-2x"
+													aria-hidden="true"
+												></i>
+												<span style={{ margin: "1% 9%" }}>
+													shubh.110394@gmail.com
+												</span>
+											</p>
 										</a>
 									)}
+									{/* <span>Github Profile</span> */}
 									<br />
 								</div>
-								{social.resume && (
+								{/* {social.resume && (
 									<a title="Download Resume" href={social.resume} download>
 										<i className="fas fa-download"></i>
 									</a>
-								)}
+								)} */}
 							</div>
 						</div>
 					</div>

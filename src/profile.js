@@ -141,57 +141,63 @@ const projects = [
 			</>
 		),
 		url: "https://github.com/harshith128/onnbikes",
-		demo:"https://harshith128.github.io/onnbikes-client/"
+		demo: "https://harshith128.github.io/onnbikes-client/",
 	},
 	{
 		// Add image in './styles/images.css' in #project2
 		id: "project2",
 		imgsrc:
-			"https://user-images.githubusercontent.com/61180475/144488150-65120138-1f77-4cba-a8b3-54e49afc2f24.png",
-		name: "Pocket-Bakery-Mart",
-		skills: ["HTML, CSS, JS"],
+			"https://user-images.githubusercontent.com/61180475/146647273-b7b1bd1f-3c28-4bf9-890a-c7db80b3859a.png",
+		name: "Movie-Booking-Platform",
+		skills: ["Reactjs,Express,CSS,"],
 		url: "https://github.com/kaustubhai",
 		description: (
-			<>
-				An online bakery store where consumers can select bakery items and buy
-				them.
+			<> 
+				An online movie booking platform where you can select a show of your choice and book it according to your convenience
 				<br></br>
 				Features:
 				<>
-					<li>Users can Sign up manually or through Google Auth.</li>
+					<li>Users can login to see their dashboard.</li>
 					<li>
-						Users can find and filter products by category or Preference wise.
+						Users can find the booked items on the same page 
 					</li>
-					<li>Users can view details of selected products</li>
-					<li>Users can add products to their carts</li>
+					<li>Users can click on download to get the QR code of the tickets</li>
+					{/* <li>Users can add products to their carts</li> */}
 				</>
 			</>
 		),
+		url: "https://github.com/shubh110394/new_rep",
+		demo: "https://moviesbookingplatform.herokuapp.com/",
 	},
-	{
-		// Add image in './styles/images.css' in #project3
-		id: "project3",
-		imgsrc:
-			"https://user-images.githubusercontent.com/61180475/144556006-470bbbe8-fff3-46ce-9096-1bd0a8147aba.png",
-		name: "Todo List",
-		skills: ["HTML, CSS, JS,ReactJs"],
-		url: "https://github.com/masai-course/shubham_fw11_198/tree/master/unit-5/sprint-2/day-3/we/redux-class3",
-		description: (
-			<>
-				A tool to manage your todo list
-				<br></br>
-				Features:
-				<>
-					<li>Users add task to be done</li>
-					<li>
-						User can click on the task to edit the toggle status
-					</li>
-					<li>Once toggled the task is shown with a crossed line to mention it is done</li>
-					<li>User can delete a task as well as the pending tasks can be seen at the bottom</li>
-				</>
-			</>
-		),
-	},
+
+	// {
+	// 	// Add image in './styles/images.css' in #project3
+	// 	id: "project3",
+	// 	imgsrc:
+	// 		"https://user-images.githubusercontent.com/61180475/144556006-470bbbe8-fff3-46ce-9096-1bd0a8147aba.png",
+	// 	name: "Todo List",
+	// 	skills: ["HTML, CSS, JS,ReactJs"],
+	// 	url: "https://github.com/masai-course/shubham_fw11_198/tree/master/unit-5/sprint-2/day-3/we/redux-class3",
+	// 	description: (
+	// 		<>
+	// 			A tool to manage your todo list
+	// 			<br></br>
+	// 			Features:
+	// 			<>
+	// 				<li>Users add task to be done</li>
+	// 				<li>User can click on the task to edit the toggle status</li>
+	// 				<li>
+	// 					Once toggled the task is shown with a crossed line to mention it is
+	// 					done
+	// 				</li>
+	// 				<li>
+	// 					User can delete a task as well as the pending tasks can be seen at
+	// 					the bottom
+	// 				</li>
+	// 			</>
+	// 		</>
+	// 	),
+	// },
 	// {
 	// Add image in './styles/images.css' in #project4
 	//   id: "project4",
@@ -259,7 +265,7 @@ const social = {
 	// instagram: "https://instagram.com",
 	linkedin: "www.linkedin.com/in/shubham-shrivastava-1798961ba",
 	resume:
-		"https://drive.google.com/drive/folders/1YdB_c-AiBA6AMkKEBcCWl0NSd5zmfiSG",
+		"https://drive.google.com/file/d/1dg-Zm0QnuIR1DouSKjfdSb3lo-L-7yFG/view",
 };
 // Dont change anything here
 export {

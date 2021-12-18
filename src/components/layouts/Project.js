@@ -49,16 +49,43 @@ const Project = ({ id, des, imgsrc, name, url, skills, demo }) => {
 					<span>
 						<>
 							<a rel="noopener noreferrer" target="_blank" href={demo}>
-								
-								<span style={{background:"blue",color:"white",padding:"0.5%"}}><i className="fas fa-eye"></i>Live Demo</span>
+								<span
+									style={{
+										background: "blue",
+										color: "white",
+										padding: "1% 2%",
+									}}
+								>
+									<i className="fas fa-eye"></i>Live Demo
+								</span>
 							</a>
-						</>
-						<>
 							<a rel="noopener noreferrer" target="_blank" href={demo}>
 								<i className="fas fa-eye"></i>
-								<span style={{background:"black",color:"white",padding:"0.5%"}}><i className="fas fa-eye"></i>GitHub Repo</span>
+								<span
+									style={{
+										background: "black",
+										color: "white",
+										padding: "1% 2%",
+									}}
+								>
+									<i className="fas fa-eye"></i>GitHub Repo
+								</span>
 							</a>
 						</>
+						{/* <>
+							<a rel="noopener noreferrer" target="_blank" href={demo}>
+								<i className="fas fa-eye"></i>
+								<span
+									style={{
+										background: "black",
+										color: "white",
+										padding: "0.5%",
+									}}
+								>
+									<i className="fas fa-eye"></i>GitHub Repo
+								</span>
+							</a>
+						</> */}
 					</span>
 				</Card.Text>
 			</Card.Body>

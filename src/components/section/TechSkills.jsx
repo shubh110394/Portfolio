@@ -19,7 +19,7 @@ export default function TechSkills() {
 				{/* <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1> */}
 				<div className="About-title-box ">
 					{" "}
-					<h1 id="About" className="red-line">
+					<h1 id="About" className="">
 						Tech Skills
 					</h1>
 				</div>

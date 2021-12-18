@@ -2,6 +2,11 @@ import React from "react";
 import HeaderButton from "../layouts/HeaderButton";
 import { header } from "../../profile";
 import Typewriter from "typewriter-effect";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import { social } from "../../profile";
 
 const Header = () => {
 	const scrollTo = () => {
@@ -26,33 +31,57 @@ const Header = () => {
 		else localStorage.setItem("mode", "Light");
 	};
 
-
 	return (
 		<div>
 			<div className="Header">
-				<div className="hp">
-					<p>Hi,I'm</p>
+				<div>
+					<Container>
+						<Row>
+							<Col>
+								<Image
+									src="https://user-images.githubusercontent.com/61180475/144848948-36d5c6eb-9396-4dcc-b990-7194ec0a5407.jpg"
+									className="image_change"
+								/>
+							</Col>
+						</Row>
+					</Container>
 				</div>
-				<h1>{header.name}</h1>
-				<span className="line-1 anim-typewriter">
-					<Typewriter
-						options={{
-							strings: ["and this is my portfolio..."],
-							autoStart: true,
-							loop: true,
-							delay: 50,
-						}}
-					/>
-				</span>
+				<div className="name">
+					<h5>Hi,My name is</h5>
+					<h2>{header.name}</h2>
 
-				<label className="switch">
+					<span className="line-1 anim-typewriter">
+						<Typewriter
+							options={{
+								strings: [
+									" I am a Web Developer",
+									"Problem Solver",
+									"Coding Lover",
+									"Team Player",
+								],
+								autoStart: true,
+								loop: true,
+								delay: 50,
+							}}
+						/>
+					</span>
+					<div className="mx-auto">
+						<a title="Download Resume" target="_blank" href={social.resume} download>
+							<button className="see">
+								Resume  <i className="fas fa-download"></i>
+							</button>
+						</a>
+					</div>
+				</div>
+
+				{/* <label className="switch">
 					<input
 						id="mode-switch"
 						onClick={(e) => toggleDarkMode(e)}
 						type="checkbox"
-					/>	
+					/>
 					<span className="slider round"></span>
-				</label>
+				</label> */}
 				<HeaderButton />
 			</div>
 			{/* <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img> */}
