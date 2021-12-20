@@ -174,7 +174,7 @@ const projects = [
 		// Add image in './styles/images.css' in #project3
 		id: "project3",
 		imgsrc:
-			"https://user-images.githubusercontent.com/61180475/144556006-470bbbe8-fff3-46ce-9096-1bd0a8147aba.png",
+			"https://user-images.githubusercontent.com/88575764/146690175-6f3a50e6-ec0d-4c9e-b3db-ba67be20efad.png",
 		name: "Kickstarter",
 		skills: ["HTML, CSS,ReactJs,NodeJs,MongoDb"],
 		url: "https://github.com/harshith128/Atom",
