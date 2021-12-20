@@ -59,7 +59,7 @@ const Project = ({ id, des, imgsrc, name, url, skills, demo }) => {
 									<i className="fas fa-eye"></i>Live Demo
 								</span>
 							</a>
-							<a rel="noopener noreferrer" target="_blank" href={demo}>
+							<a rel="noopener noreferrer" target="_blank" href={url}>
 								<i className="fas fa-eye"></i>
 								<span
 									style={{
