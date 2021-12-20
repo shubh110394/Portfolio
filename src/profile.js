@@ -150,7 +150,7 @@ const projects = [
 			"https://user-images.githubusercontent.com/61180475/146647273-b7b1bd1f-3c28-4bf9-890a-c7db80b3859a.png",
 		name: "Movie-Booking-Platform",
 		skills: ["Reactjs,Express,CSS,"],
-		url: "https://github.com/kaustubhai",
+		// url: "https://github.com/kaustubhai",
 		description: (
 			<> 
 				An online movie booking platform where you can select a show of your choice and book it according to your convenience
@@ -170,34 +170,35 @@ const projects = [
 		demo: "https://moviesbookingplatform.herokuapp.com/",
 	},
 
-	// {
-	// 	// Add image in './styles/images.css' in #project3
-	// 	id: "project3",
-	// 	imgsrc:
-	// 		"https://user-images.githubusercontent.com/61180475/144556006-470bbbe8-fff3-46ce-9096-1bd0a8147aba.png",
-	// 	name: "Todo List",
-	// 	skills: ["HTML, CSS, JS,ReactJs"],
-	// 	url: "https://github.com/masai-course/shubham_fw11_198/tree/master/unit-5/sprint-2/day-3/we/redux-class3",
-	// 	description: (
-	// 		<>
-	// 			A tool to manage your todo list
-	// 			<br></br>
-	// 			Features:
-	// 			<>
-	// 				<li>Users add task to be done</li>
-	// 				<li>User can click on the task to edit the toggle status</li>
-	// 				<li>
-	// 					Once toggled the task is shown with a crossed line to mention it is
-	// 					done
-	// 				</li>
-	// 				<li>
-	// 					User can delete a task as well as the pending tasks can be seen at
-	// 					the bottom
-	// 				</li>
-	// 			</>
-	// 		</>
-	// 	),
-	// },
+	{
+		// Add image in './styles/images.css' in #project3
+		id: "project3",
+		imgsrc:
+			"https://user-images.githubusercontent.com/61180475/144556006-470bbbe8-fff3-46ce-9096-1bd0a8147aba.png",
+		name: "Kickstarter",
+		skills: ["HTML, CSS,ReactJs,NodeJs,MongoDb"],
+		url: "https://github.com/harshith128/Atom",
+		description: (
+			<>
+				Kickstarter website is a online platform, where the creators will share their ideas with the communities and the communities will fund them to bring that idea to a reality.
+				<br></br>
+				Features:
+				<>
+				
+					<li>User can select and see different projects with nice sliding effect easily</li>
+					<li>
+						Users can also select the projects according to the category like design and technology etc.
+					</li>
+					<li>
+						User can signup/login to back the project that means funding them
+					</li>
+					<li> Users may also claim some discounts on the products by backing them </li>
+				</>
+			</>
+		),
+		url: "https://github.com/harshith128/Atom",
+		demo: "https://atom-client.vercel.app/"
+	},
 	// {
 	// Add image in './styles/images.css' in #project4
 	//   id: "project4",
