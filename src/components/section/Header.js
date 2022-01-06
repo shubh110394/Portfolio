@@ -39,7 +39,7 @@ const Header = () => {
 						<Row>
 							<Col>
 								<Image
-									src="https://user-images.githubusercontent.com/61180475/144848948-36d5c6eb-9396-4dcc-b990-7194ec0a5407.jpg"
+									src="https://user-images.githubusercontent.com/61180475/148363971-61202c1f-2fbd-4173-ad3e-549a5a0c4c12.png"
 									className="image_change"
 								/>
 							</Col>

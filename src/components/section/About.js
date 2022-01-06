@@ -23,7 +23,7 @@ const About = () => {
 					</h1>
 				</div>
 				<div
-					className="col-12 d-none d-md-block offset-md-1 col-md-4 Photo"
+					className="col-12 d-none d-md-block offset-md-1 col-md-4"
 					id="not-dark2"
 				></div>
 				<div className="col-12 offset-md-1 col-md-6 about">
