@@ -266,7 +266,7 @@ const social = {
 	// instagram: "https://instagram.com",
 	linkedin: "www.linkedin.com/in/shubham-shrivastava-1798961ba",
 	resume:
-		"https://drive.google.com/file/d/1dg-Zm0QnuIR1DouSKjfdSb3lo-L-7yFG/view",
+		"https://drive.google.com/drive/folders/1YdB_c-AiBA6AMkKEBcCWl0NSd5zmfiSG",
 };
 // Dont change anything here
 export {
