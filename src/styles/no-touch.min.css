@@ -100,6 +100,7 @@ button:focus {
 	padding: 5%;
 	margin: 10% auto;
 	border-bottom: solid 1px #777 !important;
+	/* background-color: whitesmoke; */
 }
 .effect2:after,
 .effect2:before {
@@ -535,6 +536,9 @@ input:checked + .slider:before {
 	top: -2em; */
 	font-size: 1.5rem;
 }
+#custom_css_cont{
+	color: #fff;
+}
 @keyframes typewriter {
 	from {
 		width: 0;
@@ -737,6 +741,10 @@ input:checked + .slider:before {
 		top: 0%;
 		left: 1%;
 		text-align: left;
+		
+	}
+	.name>h2{
+		color: white;
 	}
 	.fa-eye {
 		color: #fff;

@@ -6,7 +6,7 @@ const ParticlesBackground = () => {
     return (
         <div className="particle">
             { background.type === 'Snow' && <Particles
-            height="100vh"
+            // height="100vh"
             width="100%"
                 params={{
                 "particles": {

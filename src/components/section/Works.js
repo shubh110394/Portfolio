@@ -9,7 +9,7 @@ import {
 
 const Works = () => {
 	return (
-		<div data-aos="zoom-in-up" data-aos-once="true" className="third">
+		<div id="projects" data-aos="zoom-in-up" data-aos-once="true" className="third">
 			{/* <>
 					<div className="">
 						

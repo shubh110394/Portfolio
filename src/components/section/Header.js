@@ -17,22 +17,22 @@ const Header = () => {
 		});
 	};
 
-	const toggleDarkMode = (e) => {
-		document.documentElement.classList.toggle("dark-mode");
-		document.getElementById("not-dark").classList.toggle("inverse-dark");
-		document.getElementById("not-dark2").classList.toggle("inverse-dark");
-		var x = document.getElementsByClassName("img-pro");
-		for (let i = 0; i < x.length; i += 1) {
-			x.item(i).classList.toggle("inverse-dark");
-		}
+	// const toggleDarkMode = (e) => {
+	// 	document.documentElement.classList.toggle("dark-mode");
+	// 	document.getElementById("not-dark").classList.toggle("inverse-dark");
+	// 	document.getElementById("not-dark2").classList.toggle("inverse-dark");
+	// 	var x = document.getElementsByClassName("img-pro");
+	// 	for (let i = 0; i < x.length; i += 1) {
+	// 		x.item(i).classList.toggle("inverse-dark");
+	// 	}
 
-		if (document.documentElement.classList.contains("dark-mode"))
-			localStorage.setItem("mode", "Dark");
-		else localStorage.setItem("mode", "Light");
-	};
+	// 	if (document.documentElement.classList.contains("dark-mode"))
+	// 		localStorage.setItem("mode", "Dark");
+	// 	else localStorage.setItem("mode", "Light");
+	// };
 
 	return (
-		<div>
+		<div id="home">
 			<div className="Header">
 				<div>
 					<Container>
