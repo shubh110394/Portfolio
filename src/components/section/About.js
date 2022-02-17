@@ -12,7 +12,7 @@ import {
 const About = () => {
 	return (
 		<div id="about" className="effect2">
-			<div data-aos="zoom-in-up" data-aos-once="false" className="row">
+			<div data-aos="fade-right" data-aos-once="false" className="row">
 				{/* <div
 					className="col-12 d-none d-md-block offset-md-1 col-md-4 Photo"
 					id="not-dark2"

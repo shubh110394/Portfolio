@@ -67,7 +67,7 @@ const Header = () => {
 					</span>
 					<div className="mx-auto">
 						<a title="Download Resume" target="_blank" href={social.resume} download>
-							<button className="see">
+							<button className="see_resume">
 								Resume  <i className="fas fa-download"></i>
 							</button>
 						</a>

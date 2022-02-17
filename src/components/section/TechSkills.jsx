@@ -14,8 +14,8 @@ import {
 
 export default function TechSkills() {
 	return (
-		<div id="tech_skills" className="effect2">
-			<div className="pt-3 pb-3 ">
+		<div  id="tech_skills" className="effect2">
+			<div  className="pt-3 pb-3 ">
 				{/* <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1> */}
 				<div className="About-title-box ">
 					{" "}
